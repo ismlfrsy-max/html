@@ -1,0 +1,19 @@
+📌 Langkah Dasar Penggunaan Git
+
+Tambahkan File:
+
+git add README.md
+
+
+Berikan pesan perubahan:
+git commit -m "update readme file"
+
+
+Update perubahan ke github:
+
+git push -u origin main
+
+
+✍️ Jika file nya langsung banyak ganti menjjadi:
+
+git add .  -> (pake titik -> artinya tambahkan semua file)

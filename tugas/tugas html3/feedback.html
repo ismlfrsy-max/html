@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/tugas/tugas html3/style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+/>
+  
+
+</head>
+<body>
+  <div id="box1">
+    <h1>Formulir Umpan Balik</h1>
+    <h3>Kritik, Saran, dan Masukan</h3>
+    <hr>
+  </div>
+   <div class="navbar">
+    <a href="/tugas/tugas html3/index.html" class="nav-btn">Beranda</a>
+    <a href="/tugas/tugas html3/biodata.html" class="nav-btn">Biodata</a>
+    <a href="jadwal.html" class="nav-btn">Jadwal</a>
+    <a href="galeri.html" class="nav-btn">Galeri</a>
+    <a href="/tugas/tugas html3/feedback.html" class="nav-btn active">feedback</a>
+  </div>
+  <hr>
+  
+
+
+  <!-- Formulir -->
+  <div class="box">
+    <h2 class="title">Formulir Kontak & Saran</h2>
+    <p>Berikan masukan terbaik Anda untuk Pengembangan Website profile ini. semua input bersifat wajib kecuali Nama.</p>
+
+    <form>
+      <div>
+            <!-- tips shortchat input tipenya -->
+            <label for="inputname">nama lengkap</label>
+            <input type="text" name="nama lengkap" id="inputname">
+        </div>
+       <div>
+            <label for="inputemail">alamat email</label>
+            <input type="email" name="email" id="inputemail">
+        </div>
+        <div>
+            <!-- tips shortchat input tipenya -->
+            <label for="inputage">Rating Kepuasan Website (Skala 1-10):</label>
+            <input type="number" name="umur" id="inputage">
+        </div>
+
+      <div>
+            <p>Rekomendasi Website Ini?</p>
+            <input type="radio" name="hobby" id="inputmancing">
+            <label for="inputmancing">Ya, Sangat</label>
+            <input type="radio" name="hobby" id="inputberenang">
+            <label for="inputberenang">Mungkin Saja</label>
+            <input type="radio" name="hobby" id="inputbersepeda">
+            <label for="inputbersepeda">Tidak</label>
+            <br /><br />
+      </div>
+      
+      <div>
+            <p>Topik yang paling menarik:</p>
+            <input type="checkbox" name="hobby" id="inputmancing">
+            <label for="inputmancing">biodata</label>
+            <input type="checkbox" name="hobby" id="inputberenang">
+            <label for="inputberenang">galeri</label>
+            <input type="checkbox" name="hobby" id="inputbersepeda">
+            <label for="inputbersepeda">index</label>
+            <input type="checkbox" name="hobby" id="inputngoding">
+            <label for="inputngoding">jadwal</label>
+            
+            <br /><br />
+        </div>
+      <label for="inputkota">Saran Pengembangan di Bidang:</label>
+            <select name="asal_kota" id="inputkota">
+                <option value="jkt">-- Pilih Bidang --</option>
+                <option value="amb">UI/UX</option>
+                <option value="yog">Konten</option>
+                <option value="bks">Fitur</option>
+            </select>
+
+      
+      <div>
+            <!-- tips shortchat input tipenya -->
+            <label for="inputbio">Pesan/Saran Lengkap:</label>
+           <textarea name="biografi" id="inputbio"></textarea>
+      </div>
+      <div class="btn-group">
+        <button type="reset" class="reset-btn">Membatalkan</button>
+        <button type="submit" class="submit-btn">Mengonfirmasi</button>
+      </div>
+
+    </form>
+  </div>
+
+  
+
+
+
+</body>
+</html>

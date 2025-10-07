@@ -11,6 +11,38 @@
 />
 
 </head>
+<style>
+/* Styling untuk navbar */
+.navbar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Styling tombol navigasi */
+.nav-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #f0f0f0;
+  color: #333;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Saat kursor diarahkan ke tombol */
+.nav-btn:hover {
+  background: #e0e0e0;
+}
+
+/* Tombol halaman aktif (yang sedang dibuka) */
+.nav-btn.active {
+  background: #2563eb; /* warna biru */
+  color: #fff;
+}
+
+</style>
 <body>
     <main class="container">
     <h1>html 5 form tutorial</h1>
@@ -79,17 +111,30 @@
             <label for="inputpass">password</label>
             <input type="password" name="password" id="inputpass">
         </div>
-        <div>
             <label for="inputfile">upload foto</label>
             <input type="file" name="foto" id="inputfile">
+        <div>
+            <label for="inputfile">upload foto</label>
+            <input type="button" name="foto" id="inputfile">
         </div>
-
         <!-- action button -->
         <div class="grid">
-            <button type="reset">batal</button>
+            <button type="">batal</button>
             <button type="submit">simpan</button>
         </div>
+        <nav class="navbar">
+  <a href="/tugas/tugas html 2/index.html" class="nav-btn active">Beranda</a>
+  <a href="/tugas/tugas html 2/biodata.html" class="nav-btn active">Biodata</a>
+  <a href="jadwal.html" class="nav-btn active">Jadwal</a>
+  <a href="galeri.html" class="nav-btn active">Galeri</a>
+  <a href="feedback.html" class="nav-btn active">Feedback</a>
+</nav>
+
+        
     </form>
     </main>
+    
+
+
 </body>
 </html>

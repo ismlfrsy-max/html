@@ -1,0 +1,193 @@
+
+
+
+/* === Umum === */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #000;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+a {
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover { color: #1d4ed8; }
+
+hr {
+  max-width: 1000px !important;
+  margin: 30px auto !important;
+  border: 1px solid #9ca3af !important;
+}
+
+/* === Header / Box 1 === */
+#box1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#box1 h1 { color: #1e3a8a; }
+#box1 h3 { color: #6b7280; font-weight: normal; }
+.box1logo { width: 80px; margin-bottom: 10px; }
+
+/* === Navigasi === */
+.navbar { text-align: center; margin: 10px 0; }
+.nav-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 22px;
+  border: 2px solid #838383;
+  background: #fff;
+  color: #000;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav-btn:hover { background: #e0e7ff; }
+.nav-btn.active { background: #2563eb; color: #fff; }
+
+/* === Box Umum === */
+.box {
+  background: #fff;
+  padding: 20px;
+  margin: 0 auto 30px;
+  max-width: 950px;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+}
+
+/* === Judul === */
+.title, .section-title {
+  border-left: 5px solid #facc15;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+/* === Profil & Avatar === */
+.profile { display: flex; align-items: center; gap: 15px; }
+.profile p { flex: 1; text-align: justify; }
+.avatar {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+  margin: 10px auto;
+  display: block;
+}
+
+/* === Tabel === */
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #fff;
+  color: #000;
+}
+th, td {
+  border: 1px solid #c2c2c2;
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+}
+.bg-blue { background: #0425b6; color: #fff; }
+
+/* === Form === */
+
+.galeri {
+
+  background: #fff;
+  padding: 20px;
+  margin: 0 auto 30px;
+  max-width: 950px;
+  border: 1px solid #d1d1d1;
+  border-radius: 15px;
+}
+.galeri h2 {
+  border-left: 5px solid #facc15;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+  font-weight: bold;
+}
+.galeri p {
+  color: #333;
+  font-size: 16px;
+}
+.galeri .card {
+  display: inline-block;
+  width: 200px;
+  margin: 14px;
+  overflow: hidden;
+  border: 1px solid #d5d5d5;
+  border-radius: 8px;
+
+}
+.galeri .card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+.galeri .card figcaption {
+  background-color: #ffffff;
+  color: #999898;
+  padding: 4px;
+  font-size: 12px;
+  margin-top: -8px;
+}
+body, p, h1, h2, h3, h4, h5, h6, a, div, ul, li, ol, td, span { 
+  color: #000}
+
+/* Biar tombol tidak full-width */
+button,
+input[type="submit"],
+input[type="reset"] {
+  width: auto !important; /* biar ukuran sesuai teks */
+  display: inline-block !important;
+}
+
+/* Kelompok tombol sejajar kanan */
+.btn-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Style tombolnya */
+.reset-btn,
+.submit-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Warna abu-abu untuk batal */
+.reset-btn {
+  background: #6b7280;
+  color: #fff;
+}
+.reset-btn:hover { background: #4b5563; }
+
+/* Warna biru untuk kirim */
+.submit-btn {
+  background: #2563eb;
+  color: #fff;
+}
+.submit-btn:hover { background: #1d4ed8; }
+
+
+
+
+
+
+
+
